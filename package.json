@@ -1,0 +1,22 @@
+{
+  "name": "temple_vite_vue3_ts",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.0.1",
+    "ant-design-vue": "^3.0.0-alpha.14",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "less": "^4.1.2",
+    "typescript": "^4.4.3",
+    "unplugin-vue-components": "^0.17.9",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}
